@@ -1,0 +1,96 @@
+.education-section {
+    padding: 1rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 180px;
+  }
+  
+  .education-title {
+    font-size:medium;
+    font-weight: 600;
+    color: white;
+    margin-left: -2rem;
+    padding-left: 4px;
+
+
+  }
+  
+  .education-card {
+    background-color: #1e1e1e;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    color: #d4d4d4;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    margin-right: 2px;
+    margin-left: 20px;
+    max-width: 1000px;
+  }
+  .education-label{
+    padding-right: 1px;
+    margin-right:1px;
+  }
+  
+  .education-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:2rem;
+  }
+  
+  .pill-group {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pill {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    background-color: #2e2e2e;
+    color: #c9c9c9;
+  }
+  
+  .pill.company {
+    background-color: #7c3aed;
+    color: white;
+    gap:4rem;
+  }
+  
+  .pill.date {
+    background-color: #3b3b3b;
+  }
+  
+  .education-description {
+    margin-top: 0.75rem;
+    line-height: 1.5;
+  }
+  
+  .education-container {
+    max-width: 1100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    gap: 1rem;
+    padding-left: 2rem;
+    margin-left:1px;
+  }
+  
+  @media (min-width: 700px) {
+    .education-container {
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 1.9rem;
+    }
+  
+    .education-label,
+    .education-content {
+      padding-left: 0rem;
+    }
+  }
+  
+  .education-label h2 {
+    margin-bottom: 1rem;
+  }
+  
