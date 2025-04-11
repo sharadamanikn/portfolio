@@ -1,0 +1,52 @@
+
+.about-section {
+    padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    scroll-margin-top: 100px;
+    }
+  
+  .about-container {
+    max-width: 760px; 
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    gap: 0.9rem;
+    padding-left:11rem;
+    margin: 0 auto;
+  }
+  
+  @media (min-width: 768px) {
+    .about-container {
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 2.3rem;
+    }
+  
+    .about-label,
+    .about-content {
+      padding-left: 1rem; /* 👈 Add this to shift both */
+    }
+    
+  }
+  
+  .about-label h2 {
+    color: white;
+    font-weight: 600;
+    font-size: 1.125rem;
+    font-family: 'Satoshi', sans-serif;
+    margin-bottom: 1rem;
+
+  }
+  
+  .about-content p {
+    color:white; /* light gray */
+    font-size:medium;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    padding-right:4rem;
+
+  }
+  
+  
