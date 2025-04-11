@@ -1,0 +1,83 @@
+.work-section {
+  padding: 1rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 32px;
+}
+
+.section-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  margin-left: -2rem;
+}
+
+.work-card {
+  background-color: #1e1e1e;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  color: #d4d4d4;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.work-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pill-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.pill {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  background-color: #2e2e2e;
+  color: #c9c9c9;
+}
+
+.pill.company {
+  background-color: #7c3aed;
+  color: white;
+}
+
+.pill.date {
+  background-color: #3b3b3b;
+}
+
+.work-description {
+  margin-top: 0.75rem;
+  line-height: 1.5;
+}
+
+.experience-container {
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  gap: 0.9rem;
+  padding-left: 8rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .experience-container {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.3rem;
+  }
+
+  .experience-label,
+  .experience-content {
+    padding-left: 0rem;
+  }
+}
+
+.experience-label h2 {
+  margin-bottom: 1rem;
+}
