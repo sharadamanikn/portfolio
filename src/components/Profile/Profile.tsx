@@ -12,6 +12,7 @@ const Header = (): React.ReactNode => {
 					<div className="navbar-name">Sharadamani K N (Fullstack Developer)</div>
 					<div className="navbar-roles">
 						<button className="navbar-role">Intern</button>
+						<button className="navbar-role">Information Science</button>
 					</div>
 					<div className="navbar-socials">
 						<a href="https://www.linkedin.com/in/sharadamani-k-n-44663124b/" target="_blank">
